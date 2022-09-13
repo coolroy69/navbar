@@ -1,77 +1,95 @@
-body{
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-nav{
-  display:flex;
+nav {
+  display: flex;
   justify-content: space-around;
-  align-items:center;
+  align-items: center;
   min-height: 8vh;
-  font-family: 'Caveat', cursive;
-  background-color:#ff4584;
-
+  font-family: "Caveat", cursive;
+  background-color: #ff4584;
 }
-.logo{
+.logo {
   color: white;
   text-transform: capitalize;
   letter-spacing: 6px;
   font-size: 50px;
 }
-h4{
-  margin: 0.5rem;;
+h4 {
+  margin: 0.5rem;
 }
 
-.nav-links{
+.nav-links {
   display: flex;
   justify-content: space-around;
   width: 40%;
 }
-li{
+li {
   list-style: none;
   font-size: bold;
 }
-a{
+a {
   color: white;
   text-decoration: none;
   letter-spacing: 5px;
-  font-size:25px
-  
+  font-size: 25px;
 }
-a:hover{
+a:hover {
   font-weight: 300;
-  font-size: 200px;
+  font-size: 40px;
   cursor: pointer;
   size: 25px;
-  transition: .75s;
+  transition: 0.5s;
   color: rgb(20, 16, 236);
 }
-.burger{
+.burger {
   display: none;
   cursor: pointer;
+}
+.line1 {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px;
+  border-radius: 10px;
+}
+.line2 {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px;
+  border-radius: 10px;
+}
+.line3 {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px;
+  border-radius: 10px;
+}
+
   
+section{
+  position: relative;
+  width:100vw;
+  height: 100vh;
+  
+
 }
-.line1{
-  width: 25px;
-  height: 3px;
-  background-color:white;
-  margin: 3px;
-  border-radius: 10px;
+ section img{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit:cover;
+
 }
-.line2{
-  width: 25px;
-  height: 3px;
-  background-color:white;
-  margin: 3px;
-  border-radius: 10px;
-}
-.line3{
-  width: 25px;
-  height: 3px;
-  background-color:white;
-  margin: 3px;
-  border-radius: 10px;
-}
+
+
+
 
 @media ( max-width:940px){
     body{
