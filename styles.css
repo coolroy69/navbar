@@ -75,7 +75,7 @@ section{
   position: relative;
   width:100vw;
   height: 100vh;
-  
+
 
 }
  section img{
@@ -120,3 +120,7 @@ section{
     li{
       opacity: 0%;
     }
+    h4{
+      font-size: 40px;
+    }
+  }
