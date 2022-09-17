@@ -2,12 +2,13 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #ff4584;
 }
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 8vh;
+  min-height: 10vh;
   font-family: "Caveat", cursive;
   background-color: #ff4584;
 }
@@ -18,7 +19,7 @@ nav {
   font-size: 50px;
 }
 h4 {
-  margin: 0.5rem;
+  margin: 0.4rem;
 }
 
 .nav-links {
@@ -34,13 +35,14 @@ a {
   color: white;
   text-decoration: none;
   letter-spacing: 5px;
-  font-size: 25px;
+  font-size: 40px;
+  font-weight: 300;
 }
 a:hover {
   font-weight: 300;
-  font-size: 40px;
+  font-size: 42px;
   cursor: pointer;
-  size: 25px;
+  size: 20px;
   transition: 0.5s;
   color: rgb(20, 16, 236);
 }
@@ -70,57 +72,88 @@ a:hover {
   border-radius: 10px;
 }
 
-  
-section{
-  position: relative;
-  width:100vw;
+section {
+  position: absolute;
+  width: 100vw;
   height: 100vh;
-
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
- section img{
-  position:absolute;
+section img {
+  position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  object-fit:cover;
-
+  object-fit: cover;
+}
+.girl {
+  z-index: 0;
+}
+#hello {
+  position: absolute;
+  color: white;
+  font-size: 15.5vw;
+  height: auto;
+  font-family: "Caveat", cursive;
+  z-index: 1;
+  letter-spacing: 5px;
+  font-weight: 800;
+  transform: translate(-50, -50%);
+  
+  margin-bottom: 0px;
+  margin-left: 70px;
+}
+.text {
+  position: relative;
+  margin-top: 130rem;
+  justify-content: left;
+  text-align: left;
+  font-size: 80px;
+  font-family: "Caveat", cursive;
+  color: #fff;
+}
+h2{
+  border-top: 50px;
+  margin-top: 100px;
+  margin-bottom: 30px;
 }
 
-
-
-
-@media ( max-width:940px){
-    body{
-      overflow-x: hidden;
-      
-    }
-    .nav-links{
-      position: absolute;
-      flex-direction: column;
-      list-style-type: none;
-      right: 0px;
-      height: 92vh;
-      top: 5.5vh;
-      background-color: #ff4584;
-      align-items: center;
-      width: 100%;
-      transform: translateX(100%);
-      transition: transform 0.5s ease-in;
-      
-    }
-    .burger{
-      display:block;
-      position:absolute;
-      right: 15px;
-      top: 30px;
- 
-    }
-    li{
-      opacity: 0%;
-    }
-    h4{
-      font-size: 40px;
-    }
+@media (max-width: 940px) {
+  body {
+    overflow-x: hidden;
   }
+  .nav-links {
+    position: absolute;
+    flex-direction: column;
+    list-style-type: none;
+    right: 0px;
+    height: 82vh;
+    top: 5.5vh;
+    background-color: #ff4584;
+    align-items: center;
+    width: 100%;
+  }
+  .burger {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 40px;
+  }
+  .text {
+    position: relative;
+    margin-top: 130rem;
+    justify-content: left;
+    text-align: left;
+    font-size: 80px;
+    font-family: "Caveat", cursive;
+    color: #fff;
+  }
+  h2{
+    border-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+  
+}
