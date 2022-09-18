@@ -147,6 +147,9 @@ h2 {
   li {
     margin: 16px 0;
   }
+  h4 {
+    margin: 0.3rem;
+  }
   .burger {
     display: block;
     position: absolute;
