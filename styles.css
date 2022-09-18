@@ -128,7 +128,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-@media (max-width: 412px) {
+@media (max-width: 768px) {
   body {
     overflow-x: hidden;
   }
