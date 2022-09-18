@@ -178,6 +178,7 @@ h2 {
     font-size: 80px;
     font-family: "Caveat", cursive;
     color: #fff;
+    aspect-ratio: 1/1;
   }
   h2{
     border-top: 100px;
