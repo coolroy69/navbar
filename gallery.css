@@ -1,0 +1,136 @@
+* {
+  background-color: #ff4584;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  font-family: "Caveat", cursive;
+  background-color: #ff4584;
+}
+.logo {
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 6px;
+  font-size: 50px;
+}
+h4 {
+  margin: 0.4rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+li {
+  list-style: none;
+  font-size: bold;
+}
+a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 5px;
+  font-size: 40px;
+  font-weight: 300;
+}
+a:hover {
+  font-weight: 300;
+  font-size: 42px;
+  cursor: pointer;
+  size: 20px;
+  transition: 0.5s;
+  color: rgb(20, 16, 236);
+}
+.burger {
+  display: none;
+  cursor: pointer;
+}
+.line1 {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.line2 {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.line3 {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+h3 {
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-bottom: 5px;
+  font-family: "Caveat", cursive;
+  letter-spacing: 8px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+}
+h3:hover{
+  color: rgb(20, 16, 236);
+  cursor: pointer;
+  font-size: 50px;
+  transition: 0.5s ease-in;
+  letter-spacing: 10px;
+}
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 33.3%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  filter: grayscale(1) brightness(0.5);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.column img:hover {
+  filter: grayscale(0);
+
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .column img {
+    filter: grayscale(1) brightness(0.5);
+  }
+}
