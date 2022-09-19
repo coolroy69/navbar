@@ -147,7 +147,8 @@ h2 {
     margin: 16px 0;
   }
   h4 {
-    margin: 0.2rem;
+    margin: 0.5rem;
+    font-size:20rem;
   }
   .burger {
     display: block;
