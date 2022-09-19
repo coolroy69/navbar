@@ -147,7 +147,8 @@ h2 {
     margin: 16px 0;
   }
   h4 {
-    margin: 0.2rem;
+    margin: 0.5rem;
+    font-size:20rem;
   }
   .burger {
     display: block;
@@ -174,7 +175,7 @@ h2 {
   }
   .text {
     position: absolute;
-    margin-top: 250rem;
+    margin-top: 10rem;
     justify-content: center;
     text-align: center;
     font-size: 80px;
@@ -196,5 +197,6 @@ h2 {
     border-top: 100px;
     margin-top: 15px;
     margin-bottom: 30px;
-  }
+  }.girl {
+  z-index: 12;
 }
