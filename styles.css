@@ -197,6 +197,7 @@ h2 {
     border-top: 100px;
     margin-top: 15px;
     margin-bottom: 30px;
-  }.girl {
+  
+    .girl {
   z-index: 12;
 }
