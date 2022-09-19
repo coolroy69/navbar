@@ -175,7 +175,7 @@ h2 {
   }
   .text {
     position: absolute;
-    margin-top: 300rem;
+    margin-top: 10rem;
     justify-content: center;
     text-align: center;
     font-size: 80px;
@@ -186,7 +186,7 @@ h2 {
     position: relative;
     color: white;
     font-size: 15.5vh;
-    height: 10vh;
+    height: 5vh;
     font-family: "Caveat", cursive;
     z-index: 15;
     letter-spacing: 5px;
